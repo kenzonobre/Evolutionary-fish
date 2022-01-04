@@ -33,6 +33,10 @@ The following gif shows a school of fish that only has the cohesion behavior and
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/cohesion.gif">
 </p>
 
+### Separation
+
+The separation rule states that an individual should avoid nearby neighbors when they are close.
+The following gif shows a school of fish that only has the separation behavior and the red area represents the avoidance range of the black fish. Observation : for this specific project, the avoidance range was developed to be small than the visual range of each fish.
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/separation.gif">
 </p>
