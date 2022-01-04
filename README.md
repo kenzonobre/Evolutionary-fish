@@ -27,7 +27,7 @@ The following gif shows a school of fish that only has the alignment behavior. T
 ### Cohesion
 
 The cohesion rule states that an individual should go towards the mass center of its nearby neighbors. 
-The following gif shows a school of fish that only has the cohesion behavior and the red circle represents the mass center of the neighbors of the black fish.
+The following gif shows a school of fish that only has the cohesion behavior and the red circle represents the mass center of the black fish's neighbors.
 
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/cohesion.gif">
