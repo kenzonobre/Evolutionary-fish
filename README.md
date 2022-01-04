@@ -1,5 +1,5 @@
 # Evolutionary-fish
-Shoals of fish based on boids algorithm that evolve through a genetic algorithm
+School of fish based on boids algorithm that evolve through a genetic algorithm
 
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/simulation.gif">
