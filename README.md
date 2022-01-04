@@ -18,11 +18,16 @@ In short, the boids algorithm is ruled by three aspects : alignment, cohesion an
 ### Alignment
 
 The alignment rule states that an individual should point to the average direction of its nearby neighbors. 
-The following gif shows a school of fish that only has the alignment behavior. The the gray semi-circle represents the observable range of the black fish and the black lines at front of each fish represents the direction it is pointing towards.
+The following gif shows a school of fish that only has the alignment behavior. The gray semi-circle represents the observable range of the black fish and the black lines at front of each fish represents the direction it is pointing towards.
 
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/alignment.gif">
 </p>
+
+### Cohesion
+
+The cohesion rule states that an individual should go towards the mass center of its nearby neighbors. 
+The following gif shows a school of fish that only has the cohesion behavior and the red circle represents the mass center of the neighbors of the black fish.
 
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/cohesion.gif">
