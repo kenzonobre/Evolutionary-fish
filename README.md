@@ -40,3 +40,10 @@ The following gif shows a school of fish that only has the separation behavior a
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/separation.gif">
 </p>
+
+In this way, with the alignment, cohesion and separation rules, it is possible to simulate a similar behavior of schools of fish.
+
+<p align = "center">
+  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/separation.gif">
+</p>
+
