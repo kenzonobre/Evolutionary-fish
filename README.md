@@ -17,7 +17,7 @@ In short, the boids algorithm is ruled by three aspects : alignment, cohesion an
 
 ### Alignment
 
-The alignment rule states that an individual should point to the average direction of its nearby neighbors. 
+The alignment rule states that an individual should point to the average direction of its neighbors. 
 The following gif shows a school of fish that only has the alignment behavior. The gray semi-circle represents the observable range of the black fish and the black lines at front of each fish represents the direction it is pointing towards.
 
 <p align = "center">
@@ -26,7 +26,7 @@ The following gif shows a school of fish that only has the alignment behavior. T
 
 ### Cohesion
 
-The cohesion rule states that an individual should go towards the mass center of its nearby neighbors. 
+The cohesion rule states that an individual should go towards the mass center of its neighbors. 
 The following gif shows a school of fish that only has the cohesion behavior and the red circle represents the mass center of the black fish's neighbors.
 
 <p align = "center">
@@ -35,7 +35,7 @@ The following gif shows a school of fish that only has the cohesion behavior and
 
 ### Separation
 
-The separation rule states that an individual should avoid nearby neighbors when they are close.
+The separation rule states that an individual should avoid its neighbors when they are close.
 The following gif shows a school of fish that only has the separation behavior and the red area represents the avoidance range of the black fish. Observation : for this specific project, the avoidance range was developed to be small than the visual range of each fish.
 
 <p align = "center">
