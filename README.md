@@ -51,17 +51,18 @@ In this way, it is possible to simulate a similar behavior of schools of fish us
 ## Evolutionary Algorithm
 
 In order to create a evolutionary algorithm, it is necessary to define a population of individuals that evolve based on a fitness score.
+For this project, it was used the **elitism**, **variable mutation** and **random predation** te to evolve the population.
 
 ### Population
 
-In this project, it was created a population of species of fish. Each specie were represented by a class named **Boid**, which has the following characterists :
+The population is composed by species of fish. Each specie were represented by a class named **Boid**, which has the following characterists :
 - alignmentWeigh
 - cohesionWeigh
 - separationWeigh
 - avoidSharkWeigh
 
 These variables range from 1 to 100.
-There are also other variables that define the color in the **Boid** class, but they are only for aesthetic purpose and don't influence on the boid's behavior.
+There are also other variables that define the color of the fish in the **Boid** class, but they are only for aesthetic purpose and don't influence on the boid's behavior.
 
 ### Fitness Score
 
