@@ -52,7 +52,7 @@ In this way, it is possible to simulate a similar behavior of schools of fish us
 
 In order to create a evolutionary algorithm, it is necessary to define a population of individuals that evolve based on a fitness score.
 
-### Individuals and Population
+### Population
 
 In this project, it was created a population of species of fish. Each specie were represented by a class named **Boid**, which has the following characterists :
 - alignmentWeigh
