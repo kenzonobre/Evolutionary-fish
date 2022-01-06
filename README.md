@@ -48,7 +48,7 @@ In this way, it is possible to simulate a similar behavior of schools of fish us
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/boid.gif">
 </p>
 
-## Evolutionary algorithm
+## Evolutionary Algorithm
 
 In order to create a evolutionary algorithm, it is necessary to define a population of individuals that evolve based on a fitness score.
 
@@ -60,10 +60,10 @@ In this project, it was created a population of species of fish. Each specie wer
 - separationWeigh
 - avoidSharkWeigh
 
-These variables can be called as genes and a whole group of genes is a chromosome.
-There are also variables that define the color of each specie, but they are just for aesthetic purpose and don't influence on the boids' behavior.
+These variables range from 1 to 100.
+There are also other variables that define the color in the **Boid** class, but they are only for aesthetic purpose and don't influence on the boid's behavior.
 
-### Fitness score
+### Fitness Score
 
 The fitness score is defined by a simple calculation of how much time each fish of each specie survive. More specifically, a boid fitness score is calculated by :
 
@@ -71,7 +71,11 @@ The fitness score is defined by a simple calculation of how much time each fish 
 
 in which <img src="https://render.githubusercontent.com/render/math?math=\large secondsSurvived_i"> is the number of seconds the i-th fish survived.
 
+### Elitism
 
+### Variable Mutation
+
+### Random Predation
 
 
 
