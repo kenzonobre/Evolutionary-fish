@@ -13,7 +13,7 @@ The goal of this project was to evolve species of fish in a hostile environment 
 ## Boids
 
 To simulate the behavior of a school of fish, each specie of fish was implemented based on [boids algorithm](http://www.red3d.com/cwr/boids/) developed by Craig Reynolds. 
-In short, the boids algorithm is ruled by three aspects : alignment, cohesion and separation.
+In short, the boids algorithm is ruled by three conditions : alignment, cohesion and separation.
 
 ### Alignment
 
