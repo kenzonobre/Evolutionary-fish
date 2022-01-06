@@ -1,6 +1,6 @@
 # Evolutionary-fish
 
-School of fish based on boids algorithm that evolve through a genetic algorithm
+Schools of fish based on boids algorithm that evolve through a evolutionary algorithm.
 
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/simulation.gif">
@@ -8,11 +8,11 @@ School of fish based on boids algorithm that evolve through a genetic algorithm
 
 ## Description
 
-The goal of this project was to evolve species of fish in a hostile environment consisting of sharks. In order accomplish this evolution, it was developed an genetic algorithm that prioritizes the number of living individuals in a group of fish. 
+The goal of this project was to evolve species of fish in a hostile environment consisting of sharks. In order accomplish this evolution, it was developed an genetic algorithm that prioritizes the number of living individuals in each group of fish. 
 
 ## Boids
 
-To simulate the behavior of a school of fish, each specie of fish was implemented based on [boids algorithm](http://www.red3d.com/cwr/boids/) developed by Craig Reynolds. 
+To simulate the behavior of a school of fish, each specie was implemented based on [boids algorithm](http://www.red3d.com/cwr/boids/) developed by Craig Reynolds. 
 In short, the boids algorithm is ruled by three conditions : alignment, cohesion and separation.
 
 ### Alignment
@@ -47,4 +47,32 @@ In this way, it is possible to simulate a similar behavior of schools of fish us
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/boid.gif">
 </p>
+
+## Evolutionary algorithm
+
+In order to create a evolutionary algorithm, it is necessary to define a population of individuals that evolve based on a fitness score.
+
+### Individuals and Population
+
+In this project, it was created a population of species of fish. Each specie were represented by a class named **Boid**, which has the following characterists :
+- alignmentWeigh
+- cohesionWeigh
+- separationWeigh
+- avoidSharkWeigh
+
+These variables can be called as genes and a whole group of genes is a chromosome.
+There are also variables that define the color of each specie, but they are just for aesthetic purpose and don't influence on the boids' behavior.
+
+### Fitness score
+
+The fitness score is defined by a simple calculation of how much time each fish of each specie survive. More specifically, a boid fitness score is calculated by :
+
+<img src="https://render.githubusercontent.com/render/math?math=\large FitnessScore = \Sigma fish_i * secondsSurvived_i">
+
+in which <img src="https://render.githubusercontent.com/render/math?math=\large fish_i"> is the i-th fish of the specie and <img src="https://render.githubusercontent.com/render/math?math=\large secondsSurvived_i"> is the number of seconds it survived in a generation.
+
+
+
+
+
 
