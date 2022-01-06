@@ -65,11 +65,11 @@ There are also other variables that define the color in the **Boid** class, but 
 
 ### Fitness Score
 
-The fitness score is defined by a simple calculation of how much time each fish of each specie survive. More specifically, a boid fitness score is calculated by :
+The fitness score is the sum of seconds that each fish survived. More specifically, a boid fitness score is calculated by :
 
-<img src="https://render.githubusercontent.com/render/math?math=FitnessScore = \Sigma fish_i * secondsSurvived_i">
+<img src="https://render.githubusercontent.com/render/math?math=FitnessScore = \Sigma secondsSurvived_i">
 
-in which <img src="https://render.githubusercontent.com/render/math?math=\large secondsSurvived_i"> is the number of seconds the i-th fish survived.
+in which  <img src="https://render.githubusercontent.com/render/math?math=secondsSurvived_i">  is the number of seconds the i-th fish survived.
 
 ### Elitism
 
