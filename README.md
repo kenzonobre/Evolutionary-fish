@@ -51,7 +51,7 @@ In this way, it is possible to simulate a similar behavior of schools of fish us
 ## Evolutionary Algorithm
 
 In order to create a evolutionary algorithm, it is necessary to define a population of individuals that evolve based on a fitness score.
-For this project, it was used the **elitism**, **variable mutation** and **random predation** te to evolve the population.
+For this project, it was used the **elitism**, **variable mutation** and **random predation** techniques to evolve the population.
 
 ### Population
 
