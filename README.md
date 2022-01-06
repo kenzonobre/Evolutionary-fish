@@ -67,9 +67,9 @@ There are also variables that define the color of each specie, but they are just
 
 The fitness score is defined by a simple calculation of how much time each fish of each specie survive. More specifically, a boid fitness score is calculated by :
 
-<img src="https://render.githubusercontent.com/render/math?math=\large FitnessScore = \Sigma fish_i * secondsSurvived_i">
+<img src="https://render.githubusercontent.com/render/math?math=FitnessScore = \Sigma fish_i * secondsSurvived_i">
 
-in which <img src="https://render.githubusercontent.com/render/math?math=\large fish_i"> is the i-th fish of the specie and <img src="https://render.githubusercontent.com/render/math?math=\large secondsSurvived_i"> is the number of seconds it survived in a generation.
+in which <img src="https://render.githubusercontent.com/render/math?math=\large secondsSurvived_i"> is the number of seconds the i-th fish survived.
 
 
 
