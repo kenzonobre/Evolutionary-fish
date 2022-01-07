@@ -1,6 +1,6 @@
 # Evolutionary-fish
 
-Schools of fish based on boids algorithm that evolve through a evolutionary algorithm.
+Schools of fish based on boids algorithm that evolve through an evolutionary algorithm.
 
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/simulation.gif">
@@ -8,11 +8,11 @@ Schools of fish based on boids algorithm that evolve through a evolutionary algo
 
 ## Description
 
-The goal of this project was to evolve species of fish in a hostile environment consisting of sharks. In order accomplish this evolution, it was developed an genetic algorithm that prioritizes the number of living individuals in each group of fish. 
+The goal of this project was to evolve species of fish in a hostile environment consisting of sharks. In order accomplish this evolution, it was developed an evolutionary algorithm that prioritizes the number of living individuals in each group of fish. 
 
 ## Boids
 
-To simulate the behavior of a school of fish, each specie was implemented based on [boids algorithm](http://www.red3d.com/cwr/boids/) developed by Craig Reynolds. 
+To simulate the behavior of a school of fish, each specie was implemented based on the [boids algorithm](http://www.red3d.com/cwr/boids/) developed by Craig Reynolds. 
 In short, the boids algorithm is ruled by three conditions : alignment, cohesion and separation.
 
 ### Alignment
@@ -50,8 +50,7 @@ In this way, it is possible to simulate a similar behavior of schools of fish us
 
 ## Evolutionary Algorithm
 
-<!--- In order to create a evolutionary algorithm, it is necessary to define a population of individuals that evolve based on a fitness score.--->
-For this project, it was used the **elitism**, **variable mutation** and **random predation** techniques to evolve the population.
+In order to develop a evolutionary algorithm, it is necessary to define what is the population of individuals, how to calculate the fitness score and which evolutionary strategies will be used.
 
 ### Population
 
@@ -66,17 +65,21 @@ There are also other variables that define the color of the fish in the **Boid**
 
 ### Fitness Score
 
-The fitness score is the sum of seconds that each fish survived. More specifically, a boid fitness score is calculated by :
+The fitness score is the sum of seconds that each fish survived. More specifically, a boid fitness score is calculated by the following equation :
 
 <img src="https://render.githubusercontent.com/render/math?math=FitnessScore = \Sigma secondsSurvived_i">
 
 in which  <img src="https://render.githubusercontent.com/render/math?math=secondsSurvived_i">  is the number of seconds the i-th fish survived.
 
-### Elitism
+### Evolutionary techniques
 
-### Variable Mutation
+For this project, it was used the **elitism**, **variable mutation** and **random predation** techniques to evolve the population.
 
-### Random Predation
+#### Elitism
+
+#### Variable Mutation
+
+#### Random Predation
 
 
 
