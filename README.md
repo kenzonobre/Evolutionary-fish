@@ -60,7 +60,7 @@ The population is composed by species of fish. Each specie were represented by a
 - separationWeigh
 - avoidSharkWeigh
 
-These variables range from 1 to 100.
+These variables range from 1 to 100 and they represent the genes of a specie.
 There are also other variables that define the color of the fish in the **Boid** class, but they are only for aesthetic purpose and don't influence on the boid's behavior.
 
 ### Fitness Score
@@ -71,13 +71,17 @@ The fitness score is the sum of seconds that each fish survived. More specifical
 
 in which  <img src="https://render.githubusercontent.com/render/math?math=secondsSurvived_i">  is the number of seconds the i-th fish survived.
 
-### Evolutionary techniques
+### Evolutionary strategies
 
 For this project, it was used the **elitism**, **variable mutation** and **random predation** techniques to evolve the population.
 
 #### Elitism
 
+The elitism consists of taking the best individual (best boid) of a generation and crossover it with every other individual. To perform the crossover between an individual **A** and **B**, it is only necessary to calculate the mean values between each gene of **A** and **B**.
+
 #### Variable Mutation
+
+A normal mutation vary some or all genes of an individual by a fixed percentage over the total range value of the gene (in this case this range goes from 0 to 100).
 
 #### Random Predation
 
