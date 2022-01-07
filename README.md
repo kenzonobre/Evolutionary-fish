@@ -77,13 +77,20 @@ For this project, it was used the **elitism**, **variable mutation** and **rando
 
 #### Elitism
 
-The elitism consists of taking the best individual (best boid) of a generation and crossover it with every other individual. To perform the crossover between an individual **A** and **B**, it is only necessary to calculate the mean values between each gene of **A** and **B**.
+The elitism consists of taking the best individual (boid) of a generation and crossover it with every other individual. To perform the crossover between two individuals **A** and **B**, it is only necessary to calculate the mean values between each gene of **A** and **B**.
 
 #### Variable Mutation
 
 A normal mutation vary some or all genes of an individual by a fixed percentage over the total range value of the gene (in this case this range goes from 0 to 100).
+Meanwhile, a variable mutation is a normal mutation that can change this percentage value depending on some situations.
 
 #### Random Predation
+
+The random predation consists of taking the worst individual (boid) of a generation and substitue it with a complete random individual.
+
+#### Strategies details
+
+These three strategies above were implemented in a slightly different way in the source code. Here is the documentation that talks about these differences and explains the evolutionary strategies in more detail : [link](). 
 
 
 
