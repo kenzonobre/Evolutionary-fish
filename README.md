@@ -1,6 +1,6 @@
 # Evolutionary-fish
 
-Schools of fish based on boids algorithm that evolve through an evolutionary algorithm.
+Schools of fish based on the boids algorithm that evolve through an evolutionary algorithm.
 
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/simulation.gif">
