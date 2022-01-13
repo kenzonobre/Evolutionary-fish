@@ -42,6 +42,8 @@ The following gif shows a fish school that only has the separation behavior and 
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/separation.gif">
 </p>
 
+
+### Alignment, Cohesion and Separation
 In this way, it is possible to simulate a similar behavior of fish schools using the alignment, cohesion and separation rules.
 
 <p align = "center">
@@ -52,7 +54,7 @@ In this way, it is possible to simulate a similar behavior of fish schools using
 
 ### Population
 
-The population is composed by species of fish. Each specie were represented by a class named ```Boid```, which has the following main characterists :
+The population is composed by species of fish. Each specie is represented by a class named ```Boid```, which has the following main characterists :
 - ```alignmentWeigh```
 - ```cohesionWeigh```
 - ```separationWeigh```
