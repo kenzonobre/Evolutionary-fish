@@ -65,9 +65,9 @@ There are also other variables that define the color of the fish in the ```Boid`
 
 The fitness score is the sum of seconds that each fish survived. More specifically, a boid fitness score is calculated by the following equation :
 
-*Fitness Score = ∑ seconds fish_i survived*
+**_Fitness Score = ∑ seconds fish_i survived_**
 
-in which *fish_i* represents the *i*-th fish of the boid.
+in which **_fish_i_** represents the *i*-th fish of the boid.
 
 ### Evolutionary strategies
 
