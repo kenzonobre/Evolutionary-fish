@@ -67,9 +67,9 @@ There are also other variables that define the color of the fish in the **Boid**
 
 The fitness score is the sum of seconds that each fish survived. More specifically, a boid fitness score is calculated by the following equation :
 
-<img src="https://render.githubusercontent.com/render/math?math=FitnessScore = \Sigma secondsSurvived_i">
+*Fitness Score = ∑ seconds fish_i survived*
 
-in which  <img src="https://render.githubusercontent.com/render/math?math=secondsSurvived_i">  is the number of seconds the i-th fish survived.
+in which *fish_i* represents the *i*-th fish of the boid.
 
 ### Evolutionary strategies
 
@@ -81,8 +81,8 @@ The elitism consists of taking the best individual (boid) of a generation and cr
 
 #### Variable Mutation
 
-A normal mutation vary some or all genes of an individual by a fixed percentage over the total range value of the gene (in this case this range goes from 0 to 100).
-Meanwhile, a variable mutation consists of a normal mutation that can change this percentage value depending on some situations.
+A normal mutation vary some or all genes of an individual by a fixed percentage value.
+Meanwhile, a variable mutation is basically a normal mutation that can change this percentage value depending on some situations.
 
 #### Random Predation
 
