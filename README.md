@@ -50,18 +50,16 @@ In this way, it is possible to simulate a similar behavior of fish schools using
 
 ## Evolutionary Algorithm
 
-In order to develop a evolutionary algorithm, it is necessary to define what is the population of individuals, how to calculate the fitness score and which evolutionary strategies will be used.
-
 ### Population
 
-The population is composed by species of fish. Each specie were represented by a class named **Boid**, which has the following main characterists :
-- alignmentWeigh
-- cohesionWeigh
-- separationWeigh
-- avoidSharkWeigh
+The population is composed by species of fish. Each specie were represented by a class named ```Boid```, which has the following main characterists :
+- ```alignmentWeigh```
+- ```cohesionWeigh```
+- ```separationWeigh```
+- ```avoidSharkWeigh```
 
 These variables range from 1 to 100 and they represent the genes of a specie.
-There are also other variables that define the color of the fish in the **Boid** class, but they are only for aesthetic purpose and don't influence on the boid's behavior.
+There are also other variables that define the color of the fish in the ```Boid``` class, but they are only for aesthetic purpose and don't influence on the boid's behavior.
 
 ### Fitness Score
 
