@@ -60,8 +60,26 @@ More specifically, when the population of boids reached a stagnation point with 
 
 Unluckily, during this stagnation point, a random predation could generate an unfit boid with high ```cohesionWeigh``` that gets a good score by accident. Furthermore, since this unfit boid is new, it doesn't have ancestors and a score history to calculate its average fitness, so it might become the best boid of the generation and, later, crossover itself with many other species, worsening a great part of the population.
 
+The following gif shows a representation of this decline situation : 
 
+<p align = "center">
+  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/decline_situation.gif">
+</p>
 
+The boids with a red tone (they have homogeneous color due to the elitism convergence) indicates the apt species. In this simulation, they have a set of genes aproximatelly to : 
+```
+alignmentWeigh = 60
+cohesionWeigh = 10
+separationWeigh = 60
+avoidSharkWeigh = 90
+```
 
+The blue boid indicates the unfit new random boid. In this case, it has the following set of genes : 
+```
+alignmentWeigh = 60
+cohesionWeigh = 90
+separationWeigh = 60
+avoidSharkWeigh = 10
+```
 
  
