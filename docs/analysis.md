@@ -1,5 +1,3 @@
-# Evolution Analysis
-
 ## Noise Analysis
 
 The environment developed in this project is highly noisy for any evolutionary algorithm, because the fitness score of a specie doesn't depend exclusively on its genes (```alignmentWeigh```, ```cohesionWeigh```, ```separationWeigh``` and ```avoidSharkWeigh```), but its surroundings also influence on its performace. For instance, if a specie happen to be near many sharks and attract them by chance, the environment will have a major influence on its fitness score.
