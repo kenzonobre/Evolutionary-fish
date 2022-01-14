@@ -39,7 +39,10 @@ Periodically, after 10 generations, the worst boid is selected (using the ```get
 
 ## Evolution Analysis
 
+![alt text](https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/evolution_1_generation_interval.png)
 
+
+![alt text](https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/evolution_10_generation_interval.png)
 
 
 
