@@ -37,6 +37,10 @@ A variable called ```TAX_OF_MUTATION``` is responsible to store a value that is 
 
 Periodically, after 10 generations, the worst boid is selected (using the ```getAverageFitness()``` function) to be replaced by a completely random specie. This strategy was implemented to diversify even more the population and reduce the elitism convergence.
 
+## Evolution Analysis
+
+
+
 
 
 
