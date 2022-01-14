@@ -34,6 +34,9 @@ The interface has a simple menu which you can see some important information of 
 - key **e** to evolve the generation before the timer go to 0.
 - key **r** to reset the whole simulation.
 
+Obervation : The simulation speed only ranges from 1 to 4.
+
+
 <p align = "center">
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/simulation_with_menu.gif">
 </p>
