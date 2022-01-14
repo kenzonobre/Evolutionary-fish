@@ -90,4 +90,4 @@ Here is another simulation in which there are three downward slopes (aproximatel
   <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/evolution2_20_generation_interval.png">
 </p>
 
-
+In conclusion, in order to reduce even more the high noise this environment produces, it is necessary to simulate and test other types of approach.
