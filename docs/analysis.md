@@ -11,9 +11,17 @@ avoidSharkWeigh = 50
 ```
 Resulted in the graph below :
 
-(graph)
+<p align = "center">
+  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/noise_evidence_1_generation_interval.png">
+</p>
 
-The fluctuation observed in the graph evidences that even though all species had the same genes during all generations (and therefore they had the same behavior), the noisy environment significantly influence on the species' scores. In other words, a specie with the same behaviour can have quite different performaces. This is creates a serious problem for an evolutionary algorithm (since it evalutes an individual by its fitness score), making it more susceptible to luck. In order to reduce the noise influence, some evolutionary strategies were adopted in the algorithm.
+Here is the same graph with smoother lines (using a moving average of 10 generation interval) : 
+
+<p align = "center">
+  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/noise_evidence_10_generation_interval.png">
+</p>
+
+The fluctuation observed in the graph evidences that even though all species had the same genes during all generations (and therefore they had the same behavior), the noisy environment significantly influence on the species' scores. In other words, a specie with the same behaviour can have quite different performaces. This  creates a serious problem for an evolutionary algorithm (since it evalutes an individual by its fitness score), making it more susceptible to luck. In order to reduce the noise influence, some evolutionary strategies were adopted in the algorithm.
 
 ## Evolutionary Strategies
 
@@ -23,7 +31,7 @@ As said previously, the environment of the project is highly noisy, so it is dif
 
 First, it is stored in a vector called ```boidsFitness[][i]``` the fitness score of each specie _i_ and the fitness score of its latest 9 ancestors. The function ```getAverageFitness(i)``` calculates the average score of the vector ```boidsFitness[][i]``` without the maximum and minumum value. Next, the best boid of a generation is selected based on this ```getAverageFitness()``` function. In this way, it is possible to avoid that an unfit specie that got lucky become the best individual of a generation, since not only its performace is being analysed, but also the performace of its ancestors (in other words, the history of this specie is being examined).
 
-Besides that, to create the next generation, the best boid only crossover with those boids that have lower fitness score than itself, while boids with greater scores are cloned. Because, in this way, species that have a bad history but achieve somehow a good score (greater than the best boid) by aptness, can have a chance to show its potential.   
+Besides that, to create the next generation, the best boid only crossover with those boids that have lower fitness score than itself, while boids with greater scores are cloned. In this way, species that have a bad history but achieve somehow a good score (greater than the best boid) by aptness, can have a chance to show its potential.   
 
 ### Variable Mutation
 
