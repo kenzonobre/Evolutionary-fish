@@ -82,4 +82,10 @@ separationWeigh = 60
 avoidSharkWeigh = 10
 ```
 
- 
+If the blue boid become the best boid of the generation, it will pass its unfit genes, such as the low ```avoidSharkWeigh``` (giving less priority to avoid sharks), worsening and declining the mean fitness of the population.
+
+Here is another simulation in which there are three downward slopes (): 
+
+<p align = "center">
+  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/evolution2_10_generation_interval.png">
+</p>
