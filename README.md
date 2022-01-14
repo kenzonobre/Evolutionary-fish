@@ -3,7 +3,7 @@
 Fish schools based on the boids algorithm that evolve through an evolutionary algorithm.
 
 <p align = "center">
-  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/simulation.gif">
+  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/simulation.gif">
 </p>
 
 ## Description
@@ -21,7 +21,7 @@ The alignment rule states that an individual should point to the average directi
 The following gif shows a fish school that only has the alignment behavior. The gray semi-circle represents the observable range of the black fish and the black lines at front of each fish represents the direction it is pointing towards.
 
 <p align = "center">
-  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/alignment.gif">
+  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/alignment.gif">
 </p>
 
 ### Cohesion
@@ -30,7 +30,7 @@ The cohesion rule states that an individual should go towards the mass center of
 The following gif shows a fish school that only has the cohesion behavior and the red circle represents the mass center of the black fish's neighbors.
 
 <p align = "center">
-  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/cohesion.gif">
+  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/cohesion.gif">
 </p>
 
 ### Separation
@@ -39,7 +39,7 @@ The separation rule states that an individual should avoid its neighbors when th
 The following gif shows a fish school that only has the separation behavior and the red area represents the avoidance range of the black fish. For this specific project, the avoidance range was developed to be small than the visual range of each fish.
 
 <p align = "center">
-  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/separation.gif">
+  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/separation.gif">
 </p>
 
 
@@ -47,7 +47,7 @@ The following gif shows a fish school that only has the separation behavior and 
 In this way, it is possible to simulate a similar behavior of fish schools using the alignment, cohesion and separation rules.
 
 <p align = "center">
-  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/boid.gif">
+  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/boid.gif">
 </p>
 
 ## Evolutionary Algorithm
