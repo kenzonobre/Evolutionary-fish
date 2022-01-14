@@ -66,7 +66,7 @@ The following gif shows a representation of this decline situation :
   <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/decline_situation.gif">
 </p>
 
-The boids with a red tone (they have homogeneous color due to the elitism convergence) indicates the apt species. In this simulation, they have a set of genes aproximatelly to : 
+The boids with a red tone (they all have similar color due to the elitism convergence) indicates the apt species. In this simulation, they have a set of genes aproximatelly to : 
 ```
 alignmentWeigh = 60
 cohesionWeigh = 10
