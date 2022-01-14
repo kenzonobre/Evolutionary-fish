@@ -57,7 +57,9 @@ More specifically, when the population of boids reached a stagnation point with 
 - a high ```avoidSharkWeigh``` prioritizes running away from sharks.
 - a mid-high ```separationWeigh``` with a low ```cohesionWeigh``` results in a less dense boid, making fewer fish die when a shark approaches the entire school.
 - a mid-high ```alignmentWeigh``` turns the specie's movement more organized.
-Unluckily, during this stagnation point, a random predation could generate a unfit boid with high ```cohesionWeigh``` that gets a good score by accident. Furthermore, since this unfit boid is new, it doesn't have ancestors and a score history to calculate its average fitness, so it might become the best boid of the generation and, later, crossover itself with many other species, worsening whole the population. 
+
+Unluckily, during this stagnation point, a random predation could generate an unfit boid with high ```cohesionWeigh``` that gets a good score by accident. Furthermore, since this unfit boid is new, it doesn't have ancestors and a score history to calculate its average fitness, so it might become the best boid of the generation and, later, crossover itself with many other species, worsening a great part of the population.
+
 
 
 
