@@ -11,7 +11,7 @@ Go to the file you want to store the repository and type in the terminal :
 ```
 git clone https://github.com/kenzonobre/Evolutionary-fish.git
 ```
-Next, type : 
+Next, to go to the source code file, type : 
 ```
 cd Evolutionary-fish/src
 ```
