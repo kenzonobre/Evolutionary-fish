@@ -90,7 +90,7 @@ The random predation consists of taking the worst individual (boid) of a generat
 
 ## Details
 
-Here is a link for further details about noise and evolution analysis, and a better explanation of the evolutionary methods used : [documentation](https://github.com/kenzonobre/Evolutionary-fish/blob/main/docs/evolutionAnalysis.md)
+Here is a link for further details about the noise and evolution analysis, besides a better explanation of the evolutionary methods used : [analysis](https://github.com/kenzonobre/Evolutionary-fish/blob/main/docs/analysis.md)
 
 
 
