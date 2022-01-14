@@ -88,9 +88,10 @@ Meanwhile, a variable mutation is basically a normal mutation that can change th
 
 The random predation consists of taking the worst individual (boid) of a generation and substitute it with a complete random individual.
 
-## Details
+## Links
 
-Here is a link for further details about the noise and evolution analysis, besides a better explanation of the evolutionary methods used : [analysis](https://github.com/kenzonobre/Evolutionary-fish/blob/main/docs/analysis.md)
+For details about the noise and evolution analysis, besides a better explanation of the evolutionary methods used : [analysis](https://github.com/kenzonobre/Evolutionary-fish/blob/main/docs/analysis.md)
 
+For details about the installation : [installation]()
 
 
