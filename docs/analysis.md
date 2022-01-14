@@ -12,13 +12,13 @@ avoidSharkWeigh = 50
 Resulted in the graph below :
 
 <p align = "center">
-  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/noise_evidence_1_generation_interval.png">
+  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/noise_evidence_1_generation_interval.png">
 </p>
 
 Here is the same graph with smoother lines (using a moving average of 10 generation interval) : 
 
 <p align = "center">
-  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/noise_evidence_10_generation_interval.png">
+  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/noise_evidence_10_generation_interval.png">
 </p>
 
 The fluctuation observed in the graph evidences that even though all species had the same genes during all generations (and therefore they had the same behavior), the noisy environment significantly influence on the species' scores. In other words, a specie with the same behaviour can have quite different performaces. This  creates a serious problem for an evolutionary algorithm (since it evalutes an individual by its fitness score), making it more susceptible to luck. In order to reduce the noise influence, some evolutionary strategies were adopted in the algorithm.
@@ -48,13 +48,13 @@ Periodically, after 10 generations, the worst boid is selected (using the ```get
 After many simulations, it was possible to observe the following pattern :
 
 <p align = "center">
-  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/evolution_1_generation_interval.png">
+  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/evolution_1_generation_interval.png">
 </p>
 
 Here is the same graph with smoother lines (using a moving average of 10 generation interval) : 
 
 <p align = "center">
-  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/evolution_10_generation_interval.png">
+  <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/evolution_10_generation_interval.png">
 </p>
 
 In both graphs, it can be seen that there are two downslopes near the 400-th and 700-th generation. Ideally, the mean fitness should increase gradually until reach a point without significant changes, allowing minor fluctuations from the noisy environment. However, these declines were present in a significant number of simulations. After investigating these situations, it was evidenced that this happened due to a combination of factors between the high noise and the random predation technique.
@@ -69,7 +69,7 @@ Unluckily, during this stagnation point, the random predation could generate an 
 The following gif shows a representation of this decline situation : 
 
 <p align = "center">
-  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/decline_situation.gif">
+  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/img/decline_situation.gif">
 </p>
 
 The boids with a red tone (they all have similar color due to the elitism convergence) indicates the apt species. In this simulation, they have a set of genes aproximatelly to : 
