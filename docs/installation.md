@@ -23,6 +23,7 @@ and to run the program :
 ```
 make run
 ```
+If you want to make changes on the source code, such as changing some constant values, remember to save the file and write in the terminal the last two commands to recompile and run the program. 
 
 ## Menu
 
