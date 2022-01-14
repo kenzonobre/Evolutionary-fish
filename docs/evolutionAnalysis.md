@@ -51,7 +51,7 @@ Here is the same graph with smoother lines (using a moving average of 10 generat
   <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/evolution_10_generation_interval.png">
 </p>
 
-
+In both graphs, it can be seen that there are two downslopes near the 400-th and 700-th generation. Ideally, the mean fitness should increase gradually until reach a point without significant changes, allowing minor fluctuations from the noisy environment. However, these declines were present in some simulations. After some investigation, it was evidenced that this happened due to a combination between the high noise and the random predation technique.
 
 
 
