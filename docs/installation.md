@@ -7,7 +7,7 @@
 - Glut/OpenGL
 
 ## Instructions 
-Go to the file you want to store the repository and type in the terminal : 
+Go to the file that you want to store the repository and type in the terminal : 
 ```
 git clone https://github.com/kenzonobre/Evolutionary-fish.git
 ```
