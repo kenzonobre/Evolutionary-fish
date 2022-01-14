@@ -86,7 +86,7 @@ Meanwhile, a variable mutation is basically a normal mutation that can change th
 
 #### Random Predation
 
-The random predation consists of taking the worst individual (boid) of a generation and substitue it with a complete random individual.
+The random predation consists of taking the worst individual (boid) of a generation and substitute it with a complete random individual.
 
 #### Strategies details
 
