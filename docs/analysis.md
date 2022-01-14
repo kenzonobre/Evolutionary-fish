@@ -57,7 +57,7 @@ Here is the same graph with smoother lines (using a moving average of 10 generat
   <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/evolution_10_generation_interval.png">
 </p>
 
-In both graphs, it can be seen that there are two downslopes near the 400-th and 700-th generation. Ideally, the mean fitness should increase gradually until reach a point without significant changes, allowing minor fluctuations from the noisy environment. However, these declines were present in some simulations. After some investigation, it was evidenced that this happened due to a combination of factors of the high noise and the random predation technique.
+In both graphs, it can be seen that there are two downslopes near the 400-th and 700-th generation. Ideally, the mean fitness should increase gradually until reach a point without significant changes, allowing minor fluctuations from the noisy environment. However, these declines were present in some simulations. After investigating, it was evidenced that this happened due to a combination of factors between the high noise and the random predation technique.
 
 More specifically, when the population of boids reached a stagnation point with a high mean fitness, the species usually had high value for the ```avoidSharkWeigh``` gene, mid-high value for the ```alignmentWeigh``` and ```separationWeigh``` and low value for the ```cohesionWeigh```. These characteristics make sense, because :
 - a high ```avoidSharkWeigh``` prioritizes running away from sharks.
