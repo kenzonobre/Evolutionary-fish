@@ -38,6 +38,6 @@ Obervation : The simulation speed only ranges from 1 to 4.
 
 
 <p align = "center">
-  <img width = "500" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/simulation_with_menu.gif">
+  <img width = "600" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/simulation_with_menu.gif">
 </p>
 
