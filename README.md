@@ -92,6 +92,6 @@ The random predation consists of taking the worst individual (boid) of a generat
 
 For details about the noise and evolution analysis, besides a better explanation of the evolutionary methods used : [analysis](https://github.com/kenzonobre/Evolutionary-fish/blob/main/docs/analysis.md)
 
-For details about the installation : [installation]()
+For details about the installation : [installation](https://github.com/kenzonobre/Evolutionary-fish/blob/main/docs/installation.md)
 
 
