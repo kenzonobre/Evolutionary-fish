@@ -37,7 +37,7 @@ Besides that, to create the next generation, the best boid only crossover with t
 
 The elitism strategy is very good to evolve population that has few individuals (such as those in this project, in which most of the simulations are based on 20 fish species), however, it converges the individuals' genes very fast, reducing the diversity of the population. In order to solve this, the variable mutation method was used. 
 
-A variable called ```TAX_OF_MUTATION``` is responsible to store a value that is added on or subtracted from the genes of a individual that is being mutated. This variable ranges from 1 to 5 and it is initialized as 1. The idea behind it is that when there is no significant change on the individuals evolution, the ```TAX_OF_MUTATION``` should be increased to diversify more the population. In this case, the ```TAX_OF_MUTATION``` is increased when a specie becomes the best boid multiple times.
+A variable called ```TAX_OF_MUTATION``` is responsible to store a value that is added on or subtracted from the genes of an individual that is being mutated. This variable ranges from 1 to 5 and it is initialized as 1. The idea behind it is that when there is no significant change on the individuals evolution, the ```TAX_OF_MUTATION``` should be increased to diversify more the population. In this case, the ```TAX_OF_MUTATION``` is increased when a specie becomes the best boid multiple times.
 
 ### Random Predation
 
@@ -57,14 +57,14 @@ Here is the same graph with smoother lines (using a moving average of 10 generat
   <img width = "1000" src = "https://github.com/kenzonobre/Evolutionary-fish/blob/main/assets/evolution_10_generation_interval.png">
 </p>
 
-In both graphs, it can be seen that there are two downslopes near the 400-th and 700-th generation. Ideally, the mean fitness should increase gradually until reach a point without significant changes, allowing minor fluctuations from the noisy environment. However, these declines were present in some simulations. After investigating, it was evidenced that this happened due to a combination of factors between the high noise and the random predation technique.
+In both graphs, it can be seen that there are two downslopes near the 400-th and 700-th generation. Ideally, the mean fitness should increase gradually until reach a point without significant changes, allowing minor fluctuations from the noisy environment. However, these declines were present in a significant number of simulations. After investigating these situations, it was evidenced that this happened due to a combination of factors between the high noise and the random predation technique.
 
 More specifically, when the population of boids reached a stagnation point with a high mean fitness, the species usually had high value for the ```avoidSharkWeigh``` gene, mid-high value for the ```alignmentWeigh``` and ```separationWeigh``` and low value for the ```cohesionWeigh```. These characteristics make sense, because :
 - a high ```avoidSharkWeigh``` prioritizes running away from sharks.
 - a mid-high ```separationWeigh``` with a low ```cohesionWeigh``` results in a less dense boid, making fewer fish die when a shark approaches the entire school.
 - a mid-high ```alignmentWeigh``` turns the specie's movement more organized.
 
-Unluckily, during this stagnation point, a random predation could generate an unfit boid with high ```cohesionWeigh``` that gets a good score by accident. Furthermore, since this unfit boid is new, it doesn't have ancestors and a score history to calculate its average fitness, so it might become the best boid of the generation and, later, crossover itself with many other species, worsening a great part of the population.
+Unluckily, during this stagnation point, the random predation could generate an unfit boid with high ```cohesionWeigh``` that gets a good score by accident. Furthermore, since this unfit boid is new, it doesn't have ancestors and a score history to calculate its average fitness, so it might become the best boid of the generation and, later, crossover itself with many other species, worsening a great part of the population.
 
 The following gif shows a representation of this decline situation : 
 
@@ -88,6 +88,4 @@ separationWeigh = 60
 avoidSharkWeigh = 10
 ```
 
-If the blue boid become the best boid of the generation, it will pass its unfit genes, such as the low ```avoidSharkWeigh``` (giving less priority to avoid sharks), worsening and declining the mean fitness of the population.
-
-In conclusion, in order to reduce even more the high noise this environment produces, it is necessary to simulate other types of approach and evolutionary strategies.
+If the blue boid become the best boid of the generation, it will pass its unfit genes, such as the low ```avoidSharkWeigh``` (giving less priority to avoid sharks), worsening and declining the mean fitness of the population. In conlusion, even though some evolutionary strategies were used to reduce the environment high noise, it still had a significant influence on the simulation in some cases.
