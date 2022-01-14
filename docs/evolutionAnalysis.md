@@ -29,11 +29,16 @@ Besides that, to create the next generation, the best boid only crossover with t
 
 ### Variable Mutation
 
-The elitism strategy is very good to evolve population that has few individuals (such as those in this project, in which most of the simulations are based on 20 fish species), however, it converges the individuals' genes very fast, reducing the diversity of the population. In order to solve this, the variable mutation method were used. 
+The elitism strategy is very good to evolve population that has few individuals (such as those in this project, in which most of the simulations are based on 20 fish species), however, it converges the individuals' genes very fast, reducing the diversity of the population. In order to solve this, the variable mutation method was used. 
 
 A variable called ```TAX_OF_MUTATION``` is responsible to store a value that is added on or subtracted from the genes of a individual that is being mutated. This variable ranges from 1 to 5 and it is initialized as 1. The idea behind it is that when there is no significant change on the individuals evolution, the ```TAX_OF_MUTATION``` should be increased to diversify more the population. In this case, the ```TAX_OF_MUTATION``` is increased when a specie becomes the best boid multiple times.
 
 ### Random Predation
+
+Periodically, after 10 generations, the worst boid is selected (using the ```getAverageFitness()``` function) to be replaced by a completely random specie. This strategy was implemented to diversify even more the population and reduce the elitism convergence.
+
+
+
 
 
  
