@@ -35,7 +35,7 @@ float Point::operator % (Point other)
 	return this->x * other.x + this->y * other.y;
 }
 
-//	Rotate the vector by theta radius
+//	Rotate the vector by theta radians
 void Point::rotate(float theta)
 {
 	float nx = this->x * cos(theta) - this->y * sin(theta);
