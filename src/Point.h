@@ -26,7 +26,7 @@ class Point
 		//	Dot product
 		float operator % (Point a);
 
-		//	Rotate the vector by theta radius
+		//	Rotate the vector by theta radians
 		void rotate(float theta);
 
 		//	Get angle of the vector
