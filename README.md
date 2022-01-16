@@ -60,7 +60,7 @@ The population is composed by species of fish. Each specie is represented by a c
 - ```separationWeigh```
 - ```avoidSharkWeigh```
 
-These variables range from 1 to 100 and they represent the genes of a specie.
+These variables range from 5 to 100 and they represent the genes of a specie.
 There are also other variables that define the color of the fish in the ```Boid``` class, but they are only for aesthetic purpose and don't influence on the boid's behavior.
 
 ### Fitness Score
