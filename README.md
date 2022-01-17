@@ -94,6 +94,6 @@ For details about the evolution analysis and a better explanation of the evoluti
 
 For details about the installation : [installation](https://github.com/kenzonobre/Evolutionary-fish/blob/main/docs/installation.md)
 
-Here is a video briefly explaining the whole project (in Portuguese) : [apresentation](https://drive.google.com/file/d/11vAa8dtXWLrZmmdrHgr9nf-c7vVcu6n-/view?usp=sharing)
+Here is a video briefly explaining the whole project (in Portuguese) : [video](https://drive.google.com/file/d/11vAa8dtXWLrZmmdrHgr9nf-c7vVcu6n-/view?usp=sharing)
 
 
