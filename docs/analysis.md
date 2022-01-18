@@ -31,7 +31,7 @@ As said previously, the environment of the project is highly noisy, so it is dif
 
 First, it is stored in a vector called ```boidsFitness[][i]``` the fitness score of each specie _i_ and the fitness score of its latest 9 ancestors. The function ```getAverageFitness(i)``` calculates the average score of the vector ```boidsFitness[][i]``` without the maximum and minumum value. Next, the best boid of a generation is selected based on this ```getAverageFitness()``` function. Therefore, it is possible to avoid that an unfit specie that got lucky become the best individual of a generation, since not only its performace is being analysed, but also the performace of its ancestors (in other words, the history of this specie is being examined).
 
-Besides that, to create the next generation, the best boid only crossover with those boids that have lower fitness score than itself, while boids with greater scores are cloned. In this way, species that have a bad history but achieve somehow a good score (greater than the best boid) by aptness, can have a chance to show its potential.   
+Besides that, to create the next generation, the best boid only crossover with those boids that have lower fitness score than itself, while boids with greater scores are cloned. In this way, species that have a bad history but achieve somehow a good score (greater than the best boid) by aptness, can have a chance to show their potential.   
 
 ### Variable Mutation
 
