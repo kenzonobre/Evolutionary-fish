@@ -8,7 +8,7 @@ Fish schools based on the boids algorithm that evolve through an evolutionary al
 
 ## Description
 
-The goal of this project was to evolve species of fish in a hostile environment consisting of sharks. In order accomplish this evolution, it was developed an evolutionary algorithm that prioritizes the number of living individuals in each group of fish. 
+The goal of this project was to evolve species of fish in a hostile environment consisting of sharks. In order to accomplish this evolution, it was developed an evolutionary algorithm that prioritizes the number of living individuals in each group of fish. 
 
 ## Boids
 
